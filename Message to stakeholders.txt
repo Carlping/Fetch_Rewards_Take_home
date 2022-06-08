@@ -1,0 +1,17 @@
+Good morning,
+
+Hoped everyone had a great weekend.
+
+I completed a preliminary analysis of the data and have some quick questions. 
+
+First, when I was trying to understand transactions of each brand, I found there are 186 brand codes on the receipts that are not in the brand table.
+In addition, 165 receipts have no description of the items. If we could have the completed dataset for brands, that would be awesome.
+
+ I also found that some ID columns in the receipts items list aren't aligned with the ID in the brand table, so I am wondering if there is another table that stores information for that? For example, the 'ProductPartnerId' for Pepsi includes 5332f5fbe4b03c9a25efd0ba. This ID doesn't show up in the brand table. 
+
+In the future, I imagine the current structure may not be able to scale up when we expand our business and will require a restructure. For example, the users may come from different sources and live everywhere. We should expand the current user table to store the signup source and geographic location so that we can promote our rewards programs to regional business leaders and have their customers sign up for our programs. For example, if we find clients in New York City signed up through mobile apps more often, we should reach out to the businesses in New York City that have mobile app services. 
+
+I would love to have a quick call with you if that works for everyone on the eamil. Please let me know if you have any thought or questions.
+
+Thanks a lot,
+Pingjui
